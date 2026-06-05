@@ -6,6 +6,7 @@
 
 - `ai-coding-guide/SKILL.md`：skill 使用说明。
 - `ai-coding-guide/assets/AGENTS.md`：可复制到其他项目的中文 `AGENTS.md` 模板。
+- `ai-coding-guide/assets/AGENTS_ROUTE.md`：可复制到其他项目的中文路由/layout 专项说明模板。
 - `ai-coding-guide/agents/openai.yaml`：Codex UI 元数据。
 
 ## 使用方式
@@ -21,6 +22,8 @@ cp -R ai-coding-guide "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```text
 使用 $ai-coding-guide，为当前项目初始化或刷新 AGENTS.md。
 ```
+
+如果项目有复杂路由、layout 或菜单结构，也可以让它同步初始化 `AGENTS_ROUTE.md`。
 
 ## 发包前检查
 
