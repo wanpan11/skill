@@ -1,4 +1,4 @@
 interface:
   display_name: "AI 编码指南"
   short_description: "初始化项目 AGENTS.md 编码规范"
-  default_prompt: "使用 $ai-coding-guide，为当前项目初始化或刷新 AGENTS.md，并根据本地文档和文件填充项目特定说明。"
+  default_prompt: "使用 $ai-coding-guide，为当前项目初始化或刷新 AGENTS.md，并在项目存在路由/layout 结构时按需生成 AGENTS_ROUTE.md。"

@@ -42,6 +42,7 @@ for (const expected of requiredKarpathyTexts) {
 }
 
 const forbiddenFixedTechTexts = [
+  // 这是防止模板写死目标项目实现的强约束；只加入会把技术事实烙进通用模板的词。
   '技术栈',
   '技术选型',
   'React',
