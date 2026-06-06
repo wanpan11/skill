@@ -1,0 +1,4 @@
+interface:
+  display_name: "前端项目初始化"
+  short_description: "初始化前端项目 AGENTS.md"
+  default_prompt: "使用 $frontend-project-init，为当前前端项目初始化或刷新 AGENTS.md，并在项目存在路由/layout 结构时按需生成 AGENTS_ROUTE.md。"

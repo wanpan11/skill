@@ -1,18 +1,19 @@
 {
-  "name": "ai-coding-guide",
+  "name": "@wanp/skills",
   "version": "0.1.0",
-  "description": "Codex skill for initializing AGENTS.md with project-aware AI coding guidelines.",
+  "description": "Codex skills for initializing frontend project agent guidance.",
   "license": "UNLICENSED",
   "keywords": [
     "codex",
     "skill",
     "agents",
-    "ai-coding-guide"
+    "frontend-project-init"
   ],
   "files": [
-    "ai-coding-guide"
+    "skills"
   ],
   "scripts": {
-    "pack:dry-run": "npm pack --dry-run"
+    "pack:dry-run": "npm pack --dry-run",
+    "sync:local": "node scripts/sync-local-skills.mjs"
   }
 }
